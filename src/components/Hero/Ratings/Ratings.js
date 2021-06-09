@@ -10,11 +10,7 @@ const Rating = () => {
 				{CIRCLE_DATA.map((data, index) => {
 					return (
 						<Grid item xs={3} key={index}>
-							<Circle
-								icon={data.icon}
-								label={data.label}
-								count={data.count}
-							/>
+							<Circle data={data} />
 						</Grid>
 					);
 				})}

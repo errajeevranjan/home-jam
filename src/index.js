@@ -1,12 +1,15 @@
+import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
 	palette: {
 		primary: {
 			main: "#fff",
+		},
+		secondary: {
+			main: "#E5C558",
 		},
 	},
 	typography: {

@@ -2,8 +2,8 @@ import { Box, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import "./Circle.scss";
 import { CustomTypography } from "./CustomTypography";
-const Circle = (props) => {
-	const { icon, label, count } = props;
+const Circle = ({ data }) => {
+	const { icon, label, count } = data;
 	console.log(icon, label, count);
 	return (
 		<Box
