@@ -1,8 +1,11 @@
 import { Box, Grid, Typography } from "@material-ui/core";
 import React from "react";
-import "./Circle.scss";
+import { useStyles } from "./CircleStyles";
 import { CustomTypography } from "./CustomTypography";
+
 const Circle = ({ data }) => {
+	const classes = useStyles();
+
 	const { icon, label, count, isActive } = data;
 	console.log(icon, label, count, isActive);
 	return (
@@ -10,9 +13,13 @@ const Circle = ({ data }) => {
 			display='flex'
 			alignItems='center'
 			justifyContent='center'
-			className={isActive ? "circle active-circle" : "circle"}>
+			className={
+				isActive
+					? `${classes.circle} ${classes.activeCircle}`
+					: classes.circle
+			}>
 			<Grid
-				className={isActive ? "cancel-transform" : null}
+				className={isActive ? classes.cancelTransform : null}
 				container
 				alignItems='center'
 				alignContent='center'

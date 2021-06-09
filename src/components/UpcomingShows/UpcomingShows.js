@@ -31,7 +31,7 @@ const UpcomingShows = () => {
 					<Grid item xs={12}>
 						{/* <Box display='flex' justifyContent='center' alignItems='center'> */}
 						<Swiper
-							spaceBetween={40}
+							spaceBetween={width === "xs" ? 20 : null}
 							// slidesPerView={
 							// 	width === "xs"
 							// 		? 1.1

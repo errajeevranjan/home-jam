@@ -9,9 +9,7 @@ import "./Ratings.scss";
 const Rating = () => {
 	const width = useWidth();
 	return (
-		<Swiper
-			// spaceBetween={40}
-			slidesPerView={width === "xs" ? 1.3 : 4}>
+		<Swiper spaceBetween={40} slidesPerView={width === "xs" ? 2.5 : 4}>
 			{CIRCLE_DATA.map((data, index) => {
 				return (
 					<SwiperSlide key={index}>
