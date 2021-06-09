@@ -3,8 +3,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/swiper.scss";
-import { SHOWS_DATA } from "../../constants/ShowsData";
 import { useWidth } from "../../hooks/useWidth";
+import { SHOWS_DATA } from "../../constants/ShowsData";
 import { CustomTypography } from "../Common/CustomTypography";
 import ShowsCard from "../Common/ShowsCard";
 import "./UpcomingShows.scss"; // Import Swiper React components
@@ -42,7 +42,7 @@ const UpcomingShows = () => {
 							// 		: 4
 							// }
 
-							slidesPerView={width === "xs" ? 1.1 : 4}>
+							slidesPerView={width === "xs" ? 1.2 : 4}>
 							{SHOWS_DATA.map((data, index) => {
 								return (
 									<SwiperSlide

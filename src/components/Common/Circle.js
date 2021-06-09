@@ -3,15 +3,16 @@ import React from "react";
 import "./Circle.scss";
 import { CustomTypography } from "./CustomTypography";
 const Circle = ({ data }) => {
-	const { icon, label, count } = data;
-	console.log(icon, label, count);
+	const { icon, label, count, isActive } = data;
+	console.log(icon, label, count, isActive);
 	return (
 		<Box
 			display='flex'
 			alignItems='center'
 			justifyContent='center'
-			className='circle'>
+			className={isActive ? "circle active-circle" : "circle"}>
 			<Grid
+				className={isActive ? "cancel-transform" : null}
 				container
 				alignItems='center'
 				alignContent='center'
