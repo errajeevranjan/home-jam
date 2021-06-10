@@ -9,8 +9,8 @@ import {
 	Typography,
 } from "@material-ui/core";
 import React from "react";
-import { arrowIcon, ticketIcon } from "../../assets";
-import { CustomTypography } from "./CustomTypography";
+import { arrowIcon, ticketIcon } from "../../../assets";
+import { CustomTypography } from "../CustomTypography";
 // import "./ShowsCard.scss";
 import { showsCardStyles } from "./ShowsCardStyles";
 const ShowsCard = ({ data }) => {

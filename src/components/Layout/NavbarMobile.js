@@ -1,12 +1,12 @@
 import {
 	AppBar,
+	Backdrop,
 	Container,
 	Grid,
 	IconButton,
-	Backdrop,
-	ListItem,
 	Link,
 	List,
+	ListItem,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import React from "react";
@@ -16,7 +16,6 @@ import {
 	homeJamLogo,
 	searchIcon,
 } from "../../assets";
-import { CustomTypography } from "../Common/CustomTypography";
 
 const backDropStyles = makeStyles((theme) => ({
 	backdrop: {
@@ -46,16 +45,12 @@ const NavbarMobile = () => {
 						<Grid
 							container
 							item
-							xs={6}
+							xs={8}
 							justify='flex-end'
 							alignItems='center'
-							spacing={6}>
+							spacing={4}>
 							<Grid item>
-								<CustomTypography
-									variant='subtitle2'
-									color='primary'>
-									<img src={searchIcon} alt='search icon' />
-								</CustomTypography>
+								<img src={searchIcon} alt='search icon' />
 							</Grid>
 
 							<Grid item>

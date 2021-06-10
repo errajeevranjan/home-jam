@@ -1,21 +1,26 @@
 import { Container, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import { CustomTypography } from "../Common/CustomTypography";
-import "./HeroComponent.scss";
 import Ratings from "./Ratings/Ratings";
+import { useWidth } from "../../hooks/useWidth";
+import { heroComponentStyles } from "./HeroComponentStyles";
 const HeroComponent = () => {
+	const width = useWidth();
+	const classes = heroComponentStyles();
 	return (
-		<div className='hero-container'>
-			<div className='ratings'>
+		<div className={classes.heroContainer}>
+			<div className={classes.ratings}>
 				<Container>
 					<Grid
-						className='overlay-container'
+						className={classes.overlayContainer}
 						container
 						justify='center'
 						alignItems='flex-end'>
 						<Grid container item xs={12} spacing={4}>
 							<Grid item xs={12}>
-								<Typography variant='h1' color='primary'>
+								<Typography
+									variant={width === "xs" ? "h3" : "h1"}
+									color='primary'>
 									Cari Cari
 								</Typography>
 							</Grid>
@@ -23,8 +28,7 @@ const HeroComponent = () => {
 								<CustomTypography variant='h6' color='primary'>
 									Live from their sofa to yours. Get closer to
 									your favorite <br />
-									artists, and never miss out. &#127470;
-									&#127481;
+									artists, and never miss out. &#127481;
 								</CustomTypography>
 							</Grid>
 						</Grid>

@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import { REVIEWS } from "../../constants/ReviewsData";
 import { useWidth } from "../../hooks/useWidth";
-import ReviewCard from "../Common/ReviewCard";
+import ReviewCard from "../Common/ReviewCard/ReviewCard";
 import "./Reviews.scss";
 
 const Reviews = () => {
@@ -15,7 +15,9 @@ const Reviews = () => {
 			<Container>
 				<Grid container spacing={5}>
 					<Grid item>
-						<Typography variant='h4' color='primary'>
+						<Typography
+							variant={width === "xs" ? "h6" : "h4"}
+							color='primary'>
 							<span className='underline-this'>Re</span>
 							views
 						</Typography>

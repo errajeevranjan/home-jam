@@ -1,7 +1,7 @@
 import { Typography } from "@material-ui/core";
 import { Avatar, Card, CardContent, CardHeader, Box } from "@material-ui/core";
 import React from "react";
-import { CustomTypography } from "./CustomTypography";
+import { CustomTypography } from "../CustomTypography";
 import { reviewCardStyles } from "./ReviewCardStyles";
 
 const ReviewCard = ({ data }) => {

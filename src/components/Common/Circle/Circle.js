@@ -1,13 +1,13 @@
 import { Box, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import { useStyles } from "./CircleStyles";
-import { CustomTypography } from "./CustomTypography";
+import { CustomTypography } from "../CustomTypography";
 
 const Circle = ({ data }) => {
 	const classes = useStyles();
 
 	const { icon, label, count, isActive } = data;
-	console.log(icon, label, count, isActive);
+	// console.log(icon, label, count, isActive);
 	return (
 		<Box
 			display='flex'
