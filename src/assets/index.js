@@ -1,6 +1,7 @@
 export { default as andreaJeremiah } from "./andrea-jeremiah.svg";
 export { default as arrowIcon } from "./arrow-icon.svg";
 export { default as basketIcon } from "./basket-icon.svg";
+export { default as hamburgerIcon } from "./hamburger-icon.svg";
 // upcoming shows
 export { default as bennyDayal } from "./benny-dayal.svg";
 export { default as favIcon } from "./fav-icon.svg";
