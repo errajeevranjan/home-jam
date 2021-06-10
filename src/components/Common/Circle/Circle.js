@@ -5,9 +5,7 @@ import { CustomTypography } from "../CustomTypography";
 
 const Circle = ({ data }) => {
 	const classes = useStyles();
-
 	const { icon, label, count, isActive } = data;
-	// console.log(icon, label, count, isActive);
 	return (
 		<Box
 			display='flex'

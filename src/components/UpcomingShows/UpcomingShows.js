@@ -10,7 +10,6 @@ import ShowsCard from "../Common/ShowsCard/ShowsCard";
 import "./UpcomingShows.scss"; // Import Swiper React components
 const UpcomingShows = () => {
 	const width = useWidth();
-	// console.log(width);
 	return (
 		<div className='upcoming-shows'>
 			<Container>

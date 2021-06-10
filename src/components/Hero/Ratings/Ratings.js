@@ -5,7 +5,6 @@ import "swiper/swiper.scss";
 import { CIRCLE_DATA } from "../../../constants/CircleData";
 import { useWidth } from "../../../hooks/useWidth";
 import Circle from "../../Common/Circle/Circle";
-import "./Ratings.scss";
 const Rating = () => {
 	const width = useWidth();
 	return (

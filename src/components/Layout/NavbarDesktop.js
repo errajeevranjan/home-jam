@@ -30,17 +30,17 @@ const NavbarDesktop = () => {
 								variant='subtitle2'
 								color='primary'>
 								Help
-							</CustomTypography>{" "}
+							</CustomTypography>
 						</Grid>
 						<Grid item>
 							<CustomTypography
 								variant='subtitle2'
 								color='primary'>
 								Account
-							</CustomTypography>{" "}
+							</CustomTypography>
 						</Grid>
 						<Grid item>
-							<img src={basketIcon} alt='basket icon' />{" "}
+							<img src={basketIcon} alt='basket icon' />
 						</Grid>
 					</Grid>
 				</Grid>

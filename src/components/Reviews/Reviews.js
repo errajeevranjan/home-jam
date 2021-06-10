@@ -24,7 +24,6 @@ const Reviews = () => {
 					</Grid>
 
 					<Grid item xs={12}>
-						{/* <Box display='flex' justifyContent='center' alignItems='center'> */}
 						<Swiper
 							spaceBetween={width === "xs" ? 40 : null}
 							slidesPerView={width === "xs" ? 1 : 3}>
@@ -37,7 +36,6 @@ const Reviews = () => {
 									</SwiperSlide>
 								);
 							})}
-							...
 						</Swiper>
 					</Grid>
 				</Grid>

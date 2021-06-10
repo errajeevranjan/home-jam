@@ -9,7 +9,6 @@ const Navbar = () => {
 			case "xs":
 			case "sm":
 				return <NavbarMobile />;
-
 			default:
 				return <NavbarDesktop />;
 		}
