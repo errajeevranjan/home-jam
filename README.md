@@ -1,6 +1,6 @@
 # Landing Page of Homejam
 
-This project is live on [Netlify](https://60c1e33bd57d5ffe43804827--relaxed-swirles-233ec6.netlify.app/).
+This project is live on [Netlify](https://relaxed-swirles-233ec6.netlify.app/).
 
 ## Available Scripts
 
