@@ -23,7 +23,8 @@ const HeroComponent = () => {
 								<CustomTypography variant='h6' color='primary'>
 									Live from their sofa to yours. Get closer to
 									your favorite <br />
-									artists, and never miss out.
+									artists, and never miss out. &#127470;
+									&#127481;
 								</CustomTypography>
 							</Grid>
 						</Grid>

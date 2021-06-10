@@ -15,7 +15,12 @@ const UpcomingShows = () => {
 		<div className='upcoming-shows'>
 			<Container>
 				<Grid container spacing={5}>
-					<Grid container item xs={12} justify='space-between'>
+					<Grid
+						container
+						item
+						xs={12}
+						justify='space-between'
+						alignItems='center'>
 						<Grid item>
 							<Typography variant='h4' color='primary'>
 								<span className='underline-this'>Up</span>

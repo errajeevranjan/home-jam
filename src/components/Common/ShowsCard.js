@@ -12,9 +12,9 @@ import React from "react";
 import { arrowIcon, ticketIcon } from "../../assets";
 import { CustomTypography } from "./CustomTypography";
 // import "./ShowsCard.scss";
-import { useStyles } from "./ShowsCardStyles";
+import { showsCardStyles } from "./ShowsCardStyles";
 const ShowsCard = ({ data }) => {
-	const classes = useStyles();
+	const classes = showsCardStyles();
 
 	const { picture, name, flag, info } = data;
 	return (
@@ -44,10 +44,8 @@ const ShowsCard = ({ data }) => {
 				{/* Actions */}
 				<Grid container justify='space-between' alignItems='center'>
 					<Grid item>
-						<Link href={info} color='primary'>
-							<CustomTypography
-								variant='subtitle1'
-								color='primary'>
+						<Link href={info}>
+							<CustomTypography variant='subtitle1'>
 								<Box display='flex'>
 									<Box>More info</Box>
 									<Box ml={2}>

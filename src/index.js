@@ -13,7 +13,7 @@ const theme = createMuiTheme({
 		},
 	},
 	typography: {
-		fontFamily: ["Libre Baskerville", "Nunito"].join(","),
+		fontFamily: ["Libre Baskerville", "Nunito", "Quattrocento"].join(","),
 	},
 });
 ReactDOM.render(

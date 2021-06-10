@@ -12,3 +12,9 @@ export { default as ticketIconNofill } from "./ticket-icon-nofill.svg";
 export { default as ticketIcon } from "./ticket-icon.svg";
 export { default as vijayYesudas } from "./vijay-yesudas.svg";
 // reviewers
+export { default as reviewerOne } from "./reviewers-dp/reviewer-one.svg";
+export { default as reviewerTwo } from "./reviewers-dp/reviewer-two.svg";
+export { default as reviewerThree } from "./reviewers-dp/reviewer-three.svg";
+//flags
+export { default as unitedStates } from "./flags/states.svg";
+export { default as italy } from "./flags/italy.svg";
