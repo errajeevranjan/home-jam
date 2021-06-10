@@ -6,7 +6,7 @@ export const reviewCardStyles = makeStyles((theme) => ({
 		width: 368,
 		height: 256,
 		[theme.breakpoints.down("sm")]: {
-			width: 336,
+			width: 300,
 			height: 240,
 		},
 		border: "2px solid #E5AF56",
